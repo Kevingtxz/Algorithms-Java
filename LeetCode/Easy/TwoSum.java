@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
-    private static int[] TwoSumMethod(int[] nums, int target) {
+    public static int[] TwoSumMethod(int[] nums, int target) {
         Map<Integer, Integer> mymap = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length; i++) {
             if(mymap.containsKey(target-nums[i])){
