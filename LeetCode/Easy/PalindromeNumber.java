@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class PalindromeNumber{    
     private static short countDigits(int x, short count) {
         if(x/10 > 0) {
