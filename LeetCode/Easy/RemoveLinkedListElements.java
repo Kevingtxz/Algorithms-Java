@@ -1,6 +1,6 @@
 //203. Remove Linked List Elements
 public class RemoveLinkedListElements {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
         ListNode() {}
@@ -34,8 +34,7 @@ public class RemoveLinkedListElements {
         return head;
     }
 */
-//--The proble is that you can't instanciate a ListNode in a static function--------------------------------------------------------------
-    public static void main(String[] args) {
+public static void main(String[] args) {
         int[] numbers = {1,2,6,3,4,5,6};
         ListNode first_node = new ListNode(numbers[0]);
         ListNode last_node = first_node;
